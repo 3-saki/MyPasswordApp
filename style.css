@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+main {
+    width: 380px;
+    margin: 24px auto 0;
+    box-shadow: 0 0 8px #999;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#result {
+    margin: 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* -カスタム- 数字の場合に文字色を変える用 */
+#result .num {
+    color: rgb(0, 146, 204);
+}
+
+/* -カスタム- 記号の場合に文字色を変える用 */
+#result .symbol {
+    color: rgb(255, 115, 0);
+}
+
+main > p {
+    font-size: 11px;
+}
+
+button {
+    all: unset;
+    width: 100%;
+    background: #08c;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .6;
+}
+
+button:active {
+    opacity: .4;
+}
+
+fieldset {
+    border: 1px dashed #aaa;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+legend {
+    padding: 0 8px;
+}
+
+#password-length {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+}
+
