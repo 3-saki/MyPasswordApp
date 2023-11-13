@@ -71,3 +71,19 @@ legend {
     text-align: center;
 }
 
+
+@media (max-width:400px) {
+    main {
+        width: 350px;
+        background: rgb(195, 237, 253);
+    }
+
+    #result {
+        background: white;
+    }
+
+    fieldset {
+        border: 1px dashed #555;
+    }
+    
+}
