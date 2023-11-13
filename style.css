@@ -74,7 +74,8 @@ legend {
 
 @media (max-width:400px) {
     main {
-        width: 350px;
+        box-sizing: border-box;
+        width: 100%;
         background: rgb(195, 237, 253);
     }
 
@@ -85,5 +86,5 @@ legend {
     fieldset {
         border: 1px dashed #555;
     }
-    
+
 }
